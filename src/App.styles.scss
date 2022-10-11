@@ -1,0 +1,31 @@
+* {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  
+  &__main {
+    padding: 30px 100px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+    
+  }
+  &__paragraph {
+    max-width: 800px;
+    margin-left: 0;
+    color: rgba(black, .7);
+  }
+
+  &__products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 30px;
+    margin-left: -15px;
+  }
+
+}
